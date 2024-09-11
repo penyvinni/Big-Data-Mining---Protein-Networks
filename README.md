@@ -74,7 +74,25 @@ To run the project, the following Python libraries are required:
 - `matplotlib`
 - Google Colab or local Jupyter notebook environment
 
-You can install the necessary libraries by running:
+---
 
-```bash
-pip install pandas networkx node2vec scikit-learn numpy matplotlib
+## Usage Instructions
+
+1. Load the Data: Start by loading the protein interaction data from either brca.tsv (breast cancer) or leuk.tsv (leukemia).
+2. Run the Node2Vec Algorithm: The script trains a Node2Vec model on the graph and learns vector representations for the nodes.
+3. t-SNE Dimensionality Reduction: Apply t-SNE to the node embeddings to reduce their dimensionality for visualization.
+4. Visualization: Plot the reduced embeddings using a scatter plot to analyze the structural patterns in the protein network.
+
+---
+
+## Results Visualization
+
+The results are visualized as 2D scatter plots showing the protein-protein interaction networks:
+
+* Breast Cancer (BRCA): The visualization highlights structural and functional relationships between proteins associated with breast cancer.
+* Leukemia (LEUK): The visualization shows the relationships and interactions of proteins involved in leukemia, helping identify patterns in the network structure.
+
+---
+
+## Conclusion
+This project demonstrates the use of Node2Vec for generating graph embeddings from protein networks and visualizing them using t-SNE. The resulting visualizations provide insights into the structural and functional relationships within the protein networks, potentially revealing biological pathways and interactions.
