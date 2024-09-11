@@ -78,7 +78,7 @@ To run the project, the following Python libraries are required:
 
 ## Usage Instructions
 
-1. Load the Data: Start by loading the protein interaction data from either brca.tsv (breast cancer) or leuk.tsv (leukemia).
+1. Load the Data: Start by loading the protein interaction data from either `brca.tsv` (breast cancer) or `leuk.tsv` (leukemia).
 2. Run the Node2Vec Algorithm: The script trains a Node2Vec model on the graph and learns vector representations for the nodes.
 3. t-SNE Dimensionality Reduction: Apply t-SNE to the node embeddings to reduce their dimensionality for visualization.
 4. Visualization: Plot the reduced embeddings using a scatter plot to analyze the structural patterns in the protein network.
@@ -90,7 +90,13 @@ To run the project, the following Python libraries are required:
 The results are visualized as 2D scatter plots showing the protein-protein interaction networks:
 
 * Breast Cancer (BRCA): The visualization highlights structural and functional relationships between proteins associated with breast cancer.
+
+![brca](https://github.com/user-attachments/assets/bb32b190-d6c2-4b87-af57-4223dae07ad5)
+
 * Leukemia (LEUK): The visualization shows the relationships and interactions of proteins involved in leukemia, helping identify patterns in the network structure.
+
+![leuk](https://github.com/user-attachments/assets/6db77e07-08de-4267-8da1-c2d1b648aba7)
+
 
 ---
 
